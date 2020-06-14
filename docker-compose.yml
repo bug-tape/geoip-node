@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+    node:
+        build:
+            context: .
+            args:
+                - LICENSE_KEY
+        restart: always
+        ports:
+            - "${PORT}:80"
+        environment:
+            - TRUST_PROXY

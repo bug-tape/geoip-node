@@ -1,0 +1,11 @@
+{
+  "name": "geoip-node",
+  "version": "1.0.0",
+  "description": "Simple service to resolve ip to country using maxmind geo ip db",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@maxmind/geoip2-node": "^1.4.0",
+    "express": "^4.17.1"
+  }
+}
